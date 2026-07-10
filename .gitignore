@@ -1,0 +1,51 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+publish/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDEs and editors
+.vs/
+.vscode/
+.idea/
+
+# Test and coverage output
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# ASP.NET / tooling
+logs/
+wwwroot/lib/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!.config/packages/
+
+# Local environment overrides
+.env
+.env.*
+secrets.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Runtime caches
+*.pid
+*.seed
